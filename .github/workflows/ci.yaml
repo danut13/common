@@ -7,5 +7,6 @@ on:
   pull_request:
 
 jobs:
-  uses: pantos-io/ci-workflows/.github/workflows/python-ci.yml@v1
-  secrets: inherit
+  _:
+    uses: pantos-io/ci-workflows/.github/workflows/python-ci.yml@v1
+    secrets: inherit
